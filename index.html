@@ -7,41 +7,51 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-        <h1>Jnorte</h1>
-    </main>
+    <div class="container">
     <div class="menu">
-        <div class="box">
-            <ul>
-                <li><button>Etiqueta</button></li>
-                <li><button>Preços com validade</button></li>
-                <li><button>Vencimento</button></li>
-                <li><button>Estoque</button></li>
-            </ul>
+        <button>ETIQUETA</button>
+        <button>PREÇOS COM VALIDADE</button>
+        <button>VENCIMENTO</button>
+        <button>ESTOQUE</button>
+    </div>
+
+    <div class="form-area">
+        <div class="form-header">ETIQUETAS</div>
+        <div class="input-group">
+            <label>Informe o Código:</label>
+            <input type="text">
         </div>
-        <div class="box_tiquetas">
-            <div class="box_input">
-                <h2>Etiquetas</h2>
-                <div class="input_dados">
-                    <div>
-                        <p>Informe o Código</p>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <p>-</p>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <p>De</p>
-                        <input type="text">
-                    </div>
-                    <div>
-                        <p>Por</p>
-                        <input type="text">
-                    </div>
-                </div>
-            </div>
+        <div class="input-group">
+            <label>De:</label>
+            <input type="text">
+            <label>Por:</label>
+            <input type="text">
+        </div>
+        <div class="input-group">
+            <label>Descrição:</label>
+            <input type="text" style="width: 200px;">
+        </div>
+        <div class="input-group">
+            <label>Embalagem:</label>
+            <input type="text">
+        </div>
+
+        <div class="buttons">
+            <img src="https://cdn-icons-png.flaticon.com/512/892/892662.png" alt="Confirmar">
+            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png" alt="Cancelar">
+            <button>Imprimir Lista</button>
+        </div>
+
+        <div class="list-section">
+            LISTA
+        </div>
+
+        <div style="border: 1px solid #ccc; height: 200px; background: white;"></div>
+
+        <div class="footer">
+            DESENVOLVIDO POR CPD JNORTE - CE
         </div>
     </div>
+</div>
 </body>
 </html>
