@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>projetox</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
 <body>
     <div class="container">
@@ -17,14 +18,22 @@
 
     <div class="form-area">
         <div class="form-header">ETIQUETAS</div>
-        <div class="input-group">
+        <div class="input-grupo">
             <label>Informe o Código:</label>
             <input type="text">
+            <input class="digito" type="text">
+            <div class="buttons">
+                <button><i class="bi bi-arrow-right-short"></i></button>
+                <button><i class="bi bi-x"></i></button>
+            <button>Imprimir Lista</button>
+        </div>
         </div>
         <div class="input-group">
             <label>De:</label>
             <input type="text">
             <label>Por:</label>
+            <input type="text">
+             <label>Valor:</label>
             <input type="text">
         </div>
         <div class="input-group">
@@ -35,13 +44,6 @@
             <label>Embalagem:</label>
             <input type="text">
         </div>
-
-        <div class="buttons">
-            <img src="https://cdn-icons-png.flaticon.com/512/892/892662.png" alt="Confirmar">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828778.png" alt="Cancelar">
-            <button>Imprimir Lista</button>
-        </div>
-
         <div class="list-section">
             LISTA
         </div>
