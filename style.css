@@ -36,7 +36,7 @@ body {
 }
 .valor {
     display: flex;
-    justify-content: space-between;
+    gap: 27%;
 }
 .input-grupo{
     display: flex;
@@ -74,6 +74,7 @@ label {
 input {
     width: 120px;
     padding: 5px;
+    border-radius: 5px;
 }
 .buttons{
     display: flex;
@@ -85,6 +86,7 @@ input {
     background-color: #0066cc;
     width: 70px;
     height: 30px;
+    font-size: 50px;
     margin: 0 5px 0 5px;
     vertical-align: middle;
 }
