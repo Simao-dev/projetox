@@ -34,37 +34,61 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
 }
+.valor {
+    display: flex;
+    justify-content: space-between;
+}
 .input-grupo{
     display: flex;
-    margin: 15px;
+    justify-content: space-around;
+    margin-bottom: 10px;
     
 }
-.input-grupo>input{
-    margin: 0px  5px 5px;
-    border-radius: 5px;
-}
+
 .input-grupo>input.digito { 
     width: 50px;
 }
-.input-group {
-    margin-bottom: 10px;
-    display: inline-flex;
+.input-Descicao > button{
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #0066cc;
+    width: 70px;
+    height: 30px;
+    margin: 0 5px 0 5px;
+    vertical-align: middle;
 }
+.input-dados {
+    display: flex;
+    align-items: center;
+}
+
+.input-dados > input {
+    width: 30px;
+} 
 label {
+    margin: 0 5px 0 5px;
     display: inline-block;
 
 }
-input[type="text"] {
+input {
     width: 120px;
     padding: 5px;
 }
+.buttons{
+    display: flex;
+}
 .buttons button {
     border: none;
-    width: 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: #0066cc;
+    width: 70px;
     height: 30px;
-    margin-right: 10px;
+    margin: 0 5px 0 5px;
     vertical-align: middle;
 }
+
 .list-section {
     margin-top: 20px;
     background: #0066cc;
