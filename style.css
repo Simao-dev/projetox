@@ -19,13 +19,16 @@ body {
 }
 .menu button {
     display: block;
-    width: 100%;
+    width: 80%;
+    height: 100%;
     margin-bottom: 10px;
     padding: 10px;
     background: #e9e9e9;
     border: 1px solid #bbb;
+    color: black;
     text-align: left;
     font-weight: bold;
+    cursor: pointer;
 }
 .form-area {
     margin-left: 170px;
@@ -48,16 +51,7 @@ body {
 .input-grupo>input.digito { 
     width: 50px;
 }
-.input-Descicao > button{
-    border: none;
-    border-radius: 5px;
-    color: white;
-    background-color: #0066cc;
-    width: 70px;
-    height: 30px;
-    margin: 0 5px 0 5px;
-    vertical-align: middle;
-}
+
 .input-dados {
     display: flex;
     align-items: center;
@@ -79,7 +73,7 @@ input {
 .buttons{
     display: flex;
 }
-.buttons button {
+button {
     border: none;
     border-radius: 5px;
     color: white;
@@ -88,7 +82,9 @@ input {
     height: 30px;
     margin: 0 5px 0 5px;
     vertical-align: middle;
+    cursor: pointer;
 }
+
 button i {
     font-size: 25px;
 }
