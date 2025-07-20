@@ -29,6 +29,9 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+.menu a {
+    text-decoration: none;
+}
 .form-area {
     margin-left: 170px;
 }

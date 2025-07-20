@@ -30,6 +30,13 @@ body {
     font-weight: bold;
     cursor: pointer;
 }
+.menu a {
+    text-decoration: none;
+}
+.menu button:hover{
+    background-color: blue;
+    box-shadow:  1px 1px 0 0 red
+}
 .form-area {
     margin-left: 170px;
 }
