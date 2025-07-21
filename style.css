@@ -23,7 +23,7 @@ body {
     height: 100%;
     margin-bottom: 10px;
     padding: 10px;
-    background: #e9e9e9;
+    background: #ffffff;
     border: 1px solid #bbb;
     color: black;
     text-align: left;
@@ -34,8 +34,10 @@ body {
     text-decoration: none;
 }
 .menu button:hover{
-    background-color: blue;
-    box-shadow:  1px 1px 0 0 red
+    background-color: #E6E8E6;
+    transition: 2s;
+    transform: scale(1.1);
+    box-shadow:  1px 1px 0 0 #CED0CE
 }
 .form-area {
     margin-left: 170px;
@@ -83,8 +85,8 @@ input {
 button {
     border: none;
     border-radius: 5px;
-    color: white;
-    background-color: #0066cc;
+    color: #ffffff;
+    background-color: #F15025;
     width: 70px;
     height: 30px;
     margin: 0 5px 0 5px;
@@ -92,12 +94,18 @@ button {
     cursor: pointer;
 }
 
+button:hover {
+    transition: 2s;
+    transform: scale(1.1);
+    box-shadow:  1px 1px 0 0 #CED0CE
+}
+
 button i {
     font-size: 25px;
 }
 .list-section {
     margin-top: 20px;
-    background: #0066cc;
+    background: #F15025;
     color: white;
     padding: 5px;
     font-weight: bold;
